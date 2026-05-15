@@ -3,7 +3,7 @@
 
 ## Overview / Goal
 
-![AI Native Delivery: End-to-End flow](./images/agent_understanding.png)
+![AI Native Delivery: End-to-End flow](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/agent_understanding.png)
 
 Here is the video link to understand more about the flow.
 
@@ -25,7 +25,7 @@ Create four separate CodeMie Assistants aligned to key SDLC phases:
 * CR (Code Review)
 
 The agent or assistant we are going to create will look similar to the image shown below.
-![CodeMie workspace selection](./images/assistant.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/assistant.png)
 
 You will:
 
@@ -67,7 +67,7 @@ Decide on a naming convention for consistency. Recommended:
 ### Integrations Setup Guide
 1. Here we are integrating Jira so the assistant can directly access project tickets. This enables it to view, update, and work on issues seamlessly throughout the workflow.
 
-![CodeMie workspace selection](./images/codemie_integration.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/codemie_integration.png)
 
 - Go to Integrations
 - Click on Create
@@ -84,7 +84,7 @@ Decide on a naming convention for consistency. Recommended:
 4. Click on Create New Token.
 5. Select read & write Generate and copy the token for further use.
 ```
-![CodeMie workspace selection](./images/jira_token.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/jira_token.png)
 - Click Test (top-right) to validate
 - Click Save
 
@@ -120,7 +120,7 @@ To create a Git access token  [https://github.com/]
 
 
 ```
-![CodeMie workspace selection](./images/githubtoken.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/githubtoken.png)
 
 - Click Test (top-right) to validate
 - Click Save
@@ -136,7 +136,7 @@ From here you can go on data source :-
 Need to create 3 data source.
 
 1. Codemie user guide
-![CodeMie workspace selection](./images/data_source.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/data_source.png)
 
 Here is the updated version with the correct repository link:
 
@@ -327,7 +327,7 @@ Here is the **formatted version for Codemie Backend Data Source**:
 
 **Steps (Manual):**
 
-![CodeMie workspace selection](./images/manual.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/manual.png)
 
 1. Assistants → New Assistant.
 
@@ -453,22 +453,22 @@ Decompose into 3–5 high-level technical sub-tasks, tagged by repository:
 6. **LLM Model**: Select a model Bedrock Claude 4.5 Sonnet
 
 
-![CodeMie workspace selection](./images/LLM.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/LLM.png)
 
 7. **Tools & Integrations**: 
    - **Project Management**: **Genric Jira** -> user integration named as "jira"(created earlier during integration setup).
 
-![CodeMie workspace selection](./images/jira.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/jira.png)
 
 - **Data Source**:- add data source named user_guide(created earlier).
 
 
-![CodeMie workspace selection](./images/user_guide.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/user_guide.png)
 
 
 8. **Save the Assistant.**
 
-![CodeMie workspace selection](./images/Save.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/Save.png)
 
 ---
 
@@ -531,7 +531,7 @@ Follow these steps:
 7. **Tools & Integrations**:    
    - **Project Management**: **Genric jira** -> user integration named "jira"(created earlier).
 
-   ![CodeMie workspace selection](./images/jira.png)
+   ![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/jira.png)
 
    
 8. **Save the Assistant.**
@@ -540,7 +540,7 @@ Follow these steps:
 
 **Purpose:**
 - Translate the BA brief into a solution concept and high-level design.
-![CodeMie workspace selection](./images/manual.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/manual.png)
 
 1. Assistants → New Assistant.
 
@@ -907,11 +907,11 @@ When in doubt, ask the user which repository/repositories to target.
 ```
 5. **LLM Model**: Select Bedrock Claude 4.5 Sonnet.
 
-![CodeMie workspace selection](./images/LLM.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/LLM.png)
 
 6. **Tools & Integrations**: In the Additional Tools section, there is an option called VCS. Click on it, and you will see a dropdown menu. From there, select Github, and then integrate the Github "demo purpose" that you created during the integration setup.
 
-![CodeMie workspace selection](./images/git_hub_integration.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/git_hub_integration.png)
   
 - **Project Management**: **Genric Jira** -> use the integration named  "jira"(created earlier).
 
@@ -921,12 +921,12 @@ When in doubt, ask the user which repository/repositories to target.
 * Codemie UI (codemie-ui)
 * Codemie Backend (codemie-backend)
 
- ![CodeMie workspace selection](./images/all_data_sources.png)
+ ![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/all_data_sources.png)
 
 
 7. **Save the Assistant.**
 
-![CodeMie workspace selection](./images/Save.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/Save.png)
 
 ### Development (External Tools)
 
@@ -1028,18 +1028,18 @@ Constraints:
 
 6. **LLM Model**: Select Bedrock Claude 4.5 Sonnet.
 
-![CodeMie workspace selection](./images/LLM.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/LLM.png)
 
 7. **Tools & Integrations**: In the Additional Tools section, there is an option called VCS. Click on it, and you will see a dropdown menu. From there, select Github, and then integrate the Github "demo purpose" that you created during the integration setup.
 
-![CodeMie workspace selection](./images/git_hub_integration.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/git_hub_integration.png)
   
 - -**Avalaible tools**:- click on Git option then select Get Pull/Merge Request Changes, Create Pull/Merge Request Change Comment,Create Pull/Merge request.
 
 
 8. **Save the Assistant.**
 
-![CodeMie workspace selection](./images/Save.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/Save.png)
 
 
 
@@ -1051,7 +1051,7 @@ Here’s a **more detailed and structured version** with your required sequence 
 
 This diagram represents the **AI-native SDLC flow** implemented using CodeMie assistants. Each assistant consumes the output of the previous phase and enriches it further, ensuring continuity without manual rework.
 
-![CodeMie workspace selection](./images/flow.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/flow.png)
 
 ```mermaid id="jv2k9p"
 flowchart TD
@@ -1230,7 +1230,7 @@ attach transcript pdf.
 
 ---
 
-![CodeMie workspace selection](./images/agent_understanding.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/agent_understanding.png)
 
 ---
 
@@ -1280,7 +1280,7 @@ attach transcript pdf.
 
 ---
 
-![CodeMie workspace selection](./images/agent_understanding.png)
+![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/agent_understanding.png)
 
 ---
 
