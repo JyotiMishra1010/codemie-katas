@@ -1091,6 +1091,9 @@ Here is your **updated End-to-End Validation (clean, aligned with your flow, and
 
 # End-to-End Validation Flow 
 
+For example i am using transcript.pdf 
+which contains :-This transcript PDF contains a summarized discussion of a project meeting focused on integrating an FTP/SFTP data source into CodeMie. It covers technical requirements, UI design considerations, security measures, implementation timelines, resource planning, and action items for delivering the feature and demo.
+
 ## 1) CLARA (Business Analysis)
 
 **Objective:** Convert raw inputs (chat + transcript) into structured, testable user stories.
@@ -1274,11 +1277,6 @@ attach transcript pdf.
 * Check token validity
 * Verify project key (**EPMCDMETST**)
 * Ensure required permissions are granted
-
----
-
-If you want, I can also convert this into a **proper downloadable PDF file** for your repo.
-
 
 ---
 
