@@ -1,5 +1,5 @@
 
-# Build SDLC Assistants in CodeMie (Business Analysis → Test)
+# End-to-end AI SDLC demo
 
 ## Overview / Goal
 
@@ -29,7 +29,7 @@ The agent or assistant we are going to create will look similar to the image sho
 
 You will:
 
-* Create one Assistant per SDLC phase with a clear name, purpose, and system prompt.
+* Create one Assistant for end to end phase with a clear name, purpose, and system prompt.
 
 ---
 
@@ -125,7 +125,22 @@ To create a Git access token  [https://github.com/]
 - Click Test (top-right) to validate
 - Click Save
 
+or you can use gitbud 
 
+```
+### Generate Personal Access Token in GitBud [https://gitbud.epam.com/]
+
+1. Open [GitBud EPAM](https://gitbud.epam.com/) and sign in to your account.
+2. Click on your profile icon (top-left corner).
+3. Select **Preferences**.
+4. In the left sidebar, click **Access Tokens**.
+5. Under **Personal Access Tokens**, click **Add new token** / **Create token**.
+6. Enter a token name: `kt`
+7. Set an **Expiration date** as required.
+8. Under permissions/scopes, select **all permissions**.
+9. Click **Create personal access token**.
+10. Copy and store the token securely (it will be shown only once).
+```
 
 ## (1)Data source setup
 
@@ -223,19 +238,24 @@ Fill the following:
 
 ### **Step 3: Fork the Repository**
 
-1. Open the link using your **personal email ID (not EPAM)**:
+-- for github
+1. Open the link using your **personal  (not EPAM)**:
    [https://github.com/codemie-ai/codemie-ui](https://github.com/codemie-ai/codemie-ui)
+-- for gitbud
+   Open the link using your **epam id**:
+   [https://gitbud.epam.com/epm-cdme/codemie-ui]
+   
 
-2. Click on **Fork**
+3. Click on **Fork**
 
-3. Provide repository name:
+4. Provide repository name:
    `codemie-ui`
 
-4. Click on **Create Fork**
+5. Click on **Create Fork**
 
-5. Open your forked repository
+6. Open your forked repository
 
-6. Copy the **Repository URL**
+7. Copy the **Repository URL**
 
 ---
 
@@ -280,20 +300,24 @@ Here is the **formatted version for Codemie Backend Data Source**:
 ---
 
 ### **Step 3: Fork the Repository**
-
-1. Open the link using your **personal email ID (not EPAM)**:
+--for github
+1. Open the link using your **personal email ID**:
    [https://github.com/codemie-ai/codemie]
+-- for gitbud
+   Open the link using your **epam id**:
+   [(https://gitbud.epam.com/epm-cdme/codemie)]
+   
 
-2. Click on **Fork**
+3. Click on **Fork**
 
-3. Provide repository name:
+4. Provide repository name:
    `codemie-backend`
 
-4. Click on **Create Fork**
+5. Click on **Create Fork**
 
-5. Open your forked repository
+6. Open your forked repository
 
-6. Copy the **Repository URL**
+7. Copy the **Repository URL**
 
 ---
 
@@ -1094,6 +1118,7 @@ Here is your **updated End-to-End Validation (clean, aligned with your flow, and
 For example , here using transcript.pdf file.
 transcript.pdf file contain: This transcript PDF contains a summarized discussion of a project meeting focused on integrating an FTP/SFTP data source into CodeMie. It covers technical requirements, UI design considerations, security measures, implementation timelines, resource planning, and action items for delivering the feature and demo.
 
+
 ## 1) CLARA (Business Analysis)
 
 **Objective:** Convert raw inputs (chat + transcript) into structured, testable user stories.
@@ -1233,6 +1258,7 @@ attach transcript pdf.
 ![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/agent_understanding.png)
 
 ---
+for more clarification [https://codemie.lab.epam.com/#/share/conversations/GdNuDFVu2W45]
 
 # Final Integrated Flow
 
