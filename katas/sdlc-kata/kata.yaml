@@ -1,6 +1,6 @@
 id: sdlc-kata
 
-title: Build SDLC Assistants in CodeMie (Business Analysis → Test)
+title: Build End-to-end AI SDLC Assistants in CodeMie (Business Analysis → Test)
 
 description: >
   Learn how to build and orchestrate AI-native SDLC assistants in CodeMie.
@@ -40,7 +40,7 @@ icon: ai
 prerequisites:
   - EPAM account access
   - CodeMie access
-  - GitHub account
+  - GitHub account/Gitbud/Git epam account
   - Jira access
 
 outcomes:
