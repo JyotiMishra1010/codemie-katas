@@ -240,7 +240,7 @@ Fill the following:
 ### **Step 3: Fork the Repository**
 
 1. Open the link using your **epam id**:
-   [https://gitbud.epam.com/jyoti_mishra/codemie-ui]
+   [https://git.epam.com/epm-inai/codemie-ai/codemie-ui/codemie-ui]
    
 
 3. Click on **Fork**
@@ -275,10 +275,6 @@ Fill the following:
 
 ---
 
-Here is the **formatted version for Codemie Backend Data Source**:
-
----
-
 ### 3 Codemie Backend Data Source Setup
 
 ### **Step 1: Open Data Source**
@@ -300,7 +296,7 @@ Here is the **formatted version for Codemie Backend Data Source**:
 
 
 1. Open the link using your **epam id**:
-   [https://gitbud.epam.com/jyoti_mishra/codemie]
+   [https://git.epam.com/epm-inai/codemie-ai/codemie-backend/codemie]
    
 
 3. Click on **Fork**
@@ -334,7 +330,7 @@ Here is the **formatted version for Codemie Backend Data Source**:
 * Click **Save**
 
 ---
-**NOTE**:- Don't raise any pr or mr for these repo -"https://gitbud.epam.com/jyoti_mishra/codemie-ui" and "https://gitbud.epam.com/jyoti_mishra/codemie"
+**NOTE**:- "Don't merge any PR/MR in this repo. Post demo, please cleanup all the PR/MR raised for the demo"
 
 ## Kata steps
 
@@ -569,9 +565,6 @@ Follow these steps:
 Tools/Connections: Access to the CodeMie backend and frontend codebase and Jira"
 
 4. **Category**: Architect, Migration & Modernization
-
-
-Here is the **clean and formal version**:
 
 ---
 
@@ -1060,10 +1053,6 @@ Constraints:
 
 ![CodeMie workspace selection](https://codemie-ai.github.io/codemie-katas/katas/sdlc-kata/images/Save.png)
 
-
-
-Here’s a **more detailed and structured version** with your required sequence (**Clara → Archie → Tessa → Dev → CR**):
-
 ---
 
 ##  Reference SDLC Flow (Mermaid)
@@ -1101,10 +1090,6 @@ flowchart TD
 * **ARCHIE (SA)** → Translates stories into architecture + implementation plan (plan.md)
 * **Development Tools**→ Implements feature using plan.md (Copilot / Claude / etc.)
 * **CR (Code Review)** → Ensures quality, security, and best practices
-
----
-
-Here is your **updated End-to-End Validation (clean, aligned with your flow, and ready for documentation/PDF)**:
 
 ---
 
