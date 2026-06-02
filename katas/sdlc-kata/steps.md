@@ -1,7 +1,7 @@
 
 # End-to-end AI SDLC demo
 
-Build a complete AI-native end to end  using CodeMie Assistants that collaborate across different project phases. In this kata, you will create and configure multiple AI assistants that simulate a real end-to-end delivery pipeline where information flows seamlessly between Business Analysis, Architecture, Quality Assurance, Development, and Code Review stages.
+Build a complete AI-native end to end SDLC using CodeMie Assistants that collaborate across different project phases. In this kata, you will create and configure multiple AI assistants that simulate a real end-to-end delivery pipeline where information flows seamlessly between Business Analysis, Architecture, Quality Assurance, Development, and Code Review stages.
 
 
 ## Overview / Goal
@@ -12,7 +12,7 @@ Here is the video link to understand more about the flow.
 
 [https://videoportal.epam.com/video/e7n3lDna](https://videoportal.epam.com/video/e7n3lDna)
 
-The diagram above illustrates how CodeMie Agents (such as **CLARA** for Business Analysis, **ARCHIE** for Solution Architecture, and **TESSA** for QA) collaborate in a real end-to-end AI-native delivery flow. Each agent:    
+The diagram above illustrates how CodeMie Agents (such as **CLARA** for Business Analysis, **ARCHIE** for Solution Architecture,  **TESSA** for QA,and **CR** for codereview) collaborate in a real end-to-end AI-native delivery flow. Each agent:    
 
 * Reads inputs from real systems (call transcripts, Jira, Git).
 * Uses human feedback checkpoints at key decisions.
@@ -32,7 +32,7 @@ The agent or assistant we are going to create will look similar to the image sho
 
 You will:
 
-* Create one Assistant for end to end phase with a clear name, purpose, and system prompt.
+* Create four Assistants for end to end phase with a clear name, purpose, and system prompt.
 
 ---
 
@@ -1319,6 +1319,9 @@ After completing the full flow:
 * Fully connected AI-native SDLC workflow
 
 ---
+For any queries regarding this kata or CodeMie, feel free to ping:
 
+Poonam Nawandar
+Jyoti Mishra
 
 
